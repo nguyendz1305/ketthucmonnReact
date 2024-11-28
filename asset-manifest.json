@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ketthucmonnReact/static/css/main.8d110747.css",
+    "main.js": "/ketthucmonnReact/static/js/main.2ab7dfd1.js",
+    "index.html": "/ketthucmonnReact/index.html",
+    "main.8d110747.css.map": "/ketthucmonnReact/static/css/main.8d110747.css.map",
+    "main.2ab7dfd1.js.map": "/ketthucmonnReact/static/js/main.2ab7dfd1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8d110747.css",
+    "static/js/main.2ab7dfd1.js"
+  ]
+}
