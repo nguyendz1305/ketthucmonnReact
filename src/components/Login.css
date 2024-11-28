@@ -1,0 +1,124 @@
+/* Tổng thể giao diện */
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(45deg, #ff6f61, #f5a623);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  color: #fff;
+  overflow: hidden;
+  box-sizing: border-box;
+  animation: gradientBackground 6s ease infinite;
+  transition: background 2s ease-in-out;
+}
+
+/* Container chứa nội dung */
+.login-container {
+  text-align: center;
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 12px; /* Thay đổi bo góc để nhỏ hơn */
+  padding: 30px; /* Tăng padding để khoảng cách các phần tử rộng hơn */
+  width: 100%;
+  max-width: 400px; /* Thu nhỏ lại độ rộng */
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.login-container:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+/* Tiêu đề chính */
+h2 {
+  font-size: 2rem; /* Giảm kích thước font */
+  font-weight: 800;
+  color: #eeede7;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-bottom: 20px; /* Tăng khoảng cách dưới tiêu đề */
+  text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.6);
+}
+
+/* Form đăng nhập */
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+/* Các nhóm input */
+.form-group {
+  margin-bottom: 20px; /* Giảm khoảng cách giữa các input */
+  width: 100%;
+}
+
+input {
+  width: 100%;
+  padding: 12px; /* Tăng padding cho các input */
+  font-size: 1.1rem;
+  margin-top: 5px;
+  border-radius: 6px;
+  border: 1px solid #fff;
+  background-color: #ffffff;
+  color: #000000;
+  box-sizing: border-box;
+}
+
+input:focus {
+  outline: none;
+  background-color: #fdfdfd;
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.7);
+}
+
+/* Nút Login */
+.login-button {
+  padding: 12px 22px; /* Điều chỉnh padding nhỏ hơn */
+  font-size: 1.2rem; /* Giảm kích thước font */
+  font-weight: 700;
+  background-color: #faf8f4;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  color: #000000;
+  transition: background-color 0.3s ease, transform 0.2s ease-in-out;
+  width: 100%; /* Đảm bảo nút luôn rộng bằng input */
+  max-width: 300px; /* Giới hạn chiều rộng của nút */
+  margin-top: 10px;
+}
+
+.login-button:hover {
+  background-color: #ff5722;
+  transform: scale(1.05);
+}
+
+/* Thông báo lỗi */
+.error-message {
+  color: #ff4040;
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin-top: 15px;
+  letter-spacing: 1px;
+}
+
+/* Nút logout */
+.logout-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #ff5722;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+}
+
+.logout-button:hover {
+  background-color: #ff9800;
+}

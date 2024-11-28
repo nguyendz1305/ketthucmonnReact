@@ -1,0 +1,8 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.App {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
